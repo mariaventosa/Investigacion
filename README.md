@@ -16,21 +16,22 @@
 • Ensombrecimiento (Shadowing) - que en una clase, una variable miembro y una variable local definida en un método miembro, se llamen igual.
 
 • Ciclo de vida de variables en Java:
-	• Variables de clase (estáticas)
+	
+• Variables de clase (estáticas)
 – Se crean cuando la clase se usa por primera vez. 
 – Se inicializan por defecto si no se hace de modo explícito: 0 para números, "false" para booleano, "null" para objetos 
 – Suelen existir para el resto del programa (salvo que no esté cargado)
 	
-	• Variables de método (locales) 
-	– Existen desde el punto de definición hasta el final del bloque 
-	--  Los bloques se definen mediante llaves { }
-	– Las variables locales sólo existen dentro del propio método 
-	-- No se da acceso a ningún otro método 
+• Variables de método (locales) 
+– Existen desde el punto de definición hasta el final del bloque 
+--  Los bloques se definen mediante llaves { }
+– Las variables locales sólo existen dentro del propio método 
+-- No se da acceso a ningún otro método 
 	
 • Variables de instancia (u objeto): 
-	–  Se crean cuando se crea el objeto que las contiene. 
-	–  Se inicializan por defecto si no se hace de modo explícito: 0 para números, "false" para booleano, "null" para objetos. 
-	–  Se destruyen cuando el recolector de basura de Java no encuentra referencias activas para el objeto. 
+–  Se crean cuando se crea el objeto que las contiene. 
+–  Se inicializan por defecto si no se hace de modo explícito: 0 para números, "false" para booleano, "null" para objetos. 
+–  Se destruyen cuando el recolector de basura de Java no encuentra referencias activas para el objeto. 
 	
 	
 Referencias:
